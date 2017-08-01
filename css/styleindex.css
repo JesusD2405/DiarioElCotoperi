@@ -44,6 +44,26 @@
 
 }
 
+.logoArbol-navbar{
+
+  max-width: 55px;
+  max-height: 100px;
+
+}
+
+.logoLetras-navbar{
+
+  max-width: 150px;
+  max-height: 100px;
+
+}
+
+#logo-mobile{
+
+  max-width: 54px;
+  max-height: 100px;
+
+}
 
 .fade
 {
