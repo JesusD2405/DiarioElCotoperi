@@ -2,17 +2,25 @@
 
 $(document).ready(function() 
 {
-	/*Efecto Del Nav*/
-	$(".button-collapse").sideNav();
+	/* Efecto Slider */
+	$('.slider').slider({
 
-	/* Efecto Parallax*/
-	$('.parallax').parallax();
+		//Duracion en milesegundos del Slider por imagen
+		interval: 3000 
+	
+	});
 
 	/* Efecto Carousel */
 	$('.carousel').carousel();
+
+	/*Efecto Del Nav*/
+	$(".button-collapse").sideNav();
+
 
 	$('.materialboxed').materialbox();
 
 	/* Efecto Collapsible */
 	$('.collapsible').collapsible();
+
+	$('.modal').modal();
 });
