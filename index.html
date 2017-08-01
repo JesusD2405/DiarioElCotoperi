@@ -29,20 +29,156 @@
                         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                         
                         <ul class="right hide-on-med-and-down">
-                            <li><a href="#" class="waves-effect waves-green">Noticias</a></li>
-                            <li><a href="#" class="waves-effect waves-green">Historia</a></li>
-                            <li><a href="#" class="waves-effect waves-green">Contactos</a></li>
-                            <li><a href="#" class="waves-effect waves-green">Parroquia</a></li>
-                            <li><a href="#" class="waves-effect waves-green">Loteria</a></li>
+
+                            <li>
+                           	    <ul id="NoticiasDropdown" class="dropdown-content">
+						            <li><a href="#">Sucesos          </a></li>
+						            <li><a href="#">Economia         </a></li>
+						            <li><a href="#">Politica         </a></li>
+								    <li><a href="#">Cultura Y Deporte</a></li>
+					            </ul>
+					            <a class="dropdown-button" href="#" data-activates="NoticiasDropdown">Noticias<i class="mdi-navigation-arrow-drop-down right"></i></a>
+
+					        </li> 
+
+                            <li>
+                           	    <ul id="HistoriaDropdown" class="dropdown-content">
+						            <li><a href="#">Personajes  </a></li>
+						            <li><a href="#">Cultura     </a></li>
+						            <li><a href="#">Dato Curioso</a></li>
+					            </ul>
+					            <a class="dropdown-button" href="#" data-activates="HistoriaDropdown">Historia<i class="mdi-navigation-arrow-drop-down right"></i></a>
+					        </li> 
+
+					        <li>
+                           	    <ul id="ParroquiaDropdown" class="dropdown-content">
+						            <li><a href="#">Novedades</a></li>
+						            <li><a href="#">Talleres </a></li>
+						            <li><a href="#">Iglesia  </a></li>
+								    <li><a href="#">Eventos  </a></li>
+					            </ul>
+					            <a class="dropdown-button" href="#" data-activates="ParroquiaDropdown">Parroquia<i class="mdi-navigation-arrow-drop-down right"></i></a>
+
+					        </li> 
+
+                            <li>
+                           	    <ul id="LoteriaDropdown" class="dropdown-content">
+						            <li><a href="#">Animalitos</a></li>
+						    
+					            </ul>
+					            <a class="dropdown-button" href="#" data-activates="LoteriaDropdown">Loteria<i class="mdi-navigation-arrow-drop-down right"></i></a>
+
+					        </li>
+
+                            <li>
+                                <ul id="ContactosDropdown" class="dropdown-content">
+                                    <li><a href="#">Redes     </a></li>
+                                    <li><a href="#">Foro      </a></li>
+                                    <li><a href="#">Sugerencia</a></li>
+                                </ul>
+                                <a class="dropdown-button" href="#" data-activates="ContactosDropdown">Contactos<i class="mdi-navigation-arrow-drop-down right"></i></a>
+                            </li>     
+                            
+                            <li>    
+                                <div class="nav-wrapper">
+                                    
+                                    <form>
+                                
+                                        <div class="input-field">
+                                           
+                                            <input id="search" type="search" placeholder="Buscar Noticia.." required>
+                                            <label class="label-icon" for="search" ><i class="material-icons">search</i></label>
+                                            <i class="material-icons">close</i>
+
+                                        </div>
+
+                                    </form>
+
+                                </div>
+                            </li>
+
                         </ul>
 
                         <ul class="side-nav" id="mobile-demo">
-                            <li><a href="#" class="waves-effect waves-green">Noticias</a></li>
-                            <li><a href="#" class="waves-effect waves-green">Historia</a></li>
-                            <li><a href="#" class="waves-effect waves-green">Contactos</a></li>
-                            <li><a href="#" class="waves-effect waves-green">Parroquia</a></li>
-                            <li><a href="#" class="waves-effect waves-green">Loteria</a></li>
-                        </ul>
+
+                            <li>    
+                                <div class="nav-wrapper">
+                                    
+                                    <form>
+                                
+                                        <div class="input-field">
+                                           
+                                            <input id="search" type="search" placeholder="Buscar Noticia.." required>
+                                            <label class="label-icon" for="search" ><i class="material-icons">search</i></label>
+                                            <i class="material-icons">close</i>
+
+                                        </div>
+
+                                    </form>
+
+                                </div>
+                            </li>
+                            
+                        <ul class="collapsible collapsible-accordion">
+                            
+                            <a class="collapsible-header waves-effect waves-teal"><i class="large material-icons">assignment_ind</i>Menu</a>
+                            
+                            <li class="bold">
+                                <a class="collapsible-header waves-effect waves-teal"><i class="large material-icons">visibility</i>Noticias</a>
+                                <div class="collapsible-body">
+                                    <ul>
+                                        <li><a href="#">Sucesos          </a></li>
+                                        <li><a href="#">Economia         </a></li>
+                                        <li><a href="#">Politica         </a></li>
+                                        <li><a href="#">Cultura Y Deporte</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="bold">
+                                <a class="collapsible-header waves-effect waves-teal"><i class="large material-icons">visibility</i>Historia</a>
+                                <div class="collapsible-body">
+                                    <ul>
+                                        <li><a href="#">Personajes  </a></li>
+                                        <li><a href="#">Cultura     </a></li>
+                                        <li><a href="#">Dato Curioso</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="bold">
+                                <a class="collapsible-header waves-effect waves-teal"><i class="large material-icons">visibility</i>Parroquia</a>
+                                <div class="collapsible-body">
+                                    <ul>
+                                        <li><a href="#">Novedades</a></li>
+                                        <li><a href="#">Talleres </a></li>
+                                        <li><a href="#">Iglesia  </a></li>
+                                        <li><a href="#">Eventos  </a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="bold">
+                                <a class="collapsible-header waves-effect waves-teal"><i class="large material-icons">visibility</i>Loteria</a>
+                                <div class="collapsible-body">
+                                    <ul>
+                                        <li><a href="#">Animalitos</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="bold">
+                                <a class="collapsible-header waves-effect waves-teal"><i class="large material-icons">visibility</i>Contactos</a>
+                                <div class="collapsible-body">
+                                    <ul>
+                                        <li><a href="#">Redes     </a></li>
+                                        <li><a href="#">Foro      </a></li>
+                                        <li><a href="#">Sugerencia</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                        </ul>                       
 
                     </div>
 
@@ -52,26 +188,28 @@
 
         </section>
 
-        <section id="content">
+      
+
+        <section id="content" class="background-color: white">
             
             <div class="row">
 
                 <section id="principal">
 
-                    <div class="col s12 m9 l9">
-
+                    <div class="col s12 m9 l9 ">
+                    		
                             <br>
 
                             <section id="slider">
-                                
-                                <div class="col s12 m12 l12">
+
+                                <div class="col s12 m12 l12 white">
                                 
                                     <div class="slider">
                                         
                                         <ul class="slides">
                                             
                                             <li>
-                                                <img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->
+                                                <img src="https://lorempixel.com/580/250/nature/1" > <!-- random image -->
                                                 <div class="caption center-align">
                                                     <h3>This is our big Tagline!</h3>
                                                     <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
@@ -105,16 +243,19 @@
                                         </ul>
 
                                     </div>
-
+                                    <br>
+                                    <br>
                                 </div>
-
+                                
                             </section>
+                           
+                            <br>
 
                             <section id="noticias">
 
                                 <div class="center-align">
-                                    
-                                    <h4>Mas Reciente <i class="material-icons">access_time</i></h4>
+
+                                    <h4>Mas reciente <i class="material-icons cyan-text small">access_time</i></h4>
 
                                 </div>
 
@@ -125,17 +266,18 @@
                                     <div class="card">
 
                                         <div class="card-image">
-                                            <img src="images/playa.jpg">
+                                            <img class="materialboxed" width="450" src="images/playa.jpg">
                                             <span class="card-title">Card Title</span>
                                             <a class="btn-floating halfway-fab waves-effect waves-light red" title="Leer Noticia.."><i class="material-icons">local_library</i></a>
                                         </div>
 
                                         <div class="card-content">
-                                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively. <a href="#"> Leer mas..</a></p>
                                         </div>
 
                                     </div>
-
+                                    <br>
+                                    <br>
                                 </div>
 
                                 <div class="col s12 m4 l4">
@@ -143,17 +285,18 @@
                                     <div class="card">
 
                                         <div class="card-image">
-                                            <img src="images/pelicanos.jpg">
+                                            <img class="materialboxed" width="450" src="images/pelicanos.jpg">
                                             <span class="card-title">Card Title</span>
                                             <a class="btn-floating halfway-fab waves-effect waves-light red" title="Leer Noticia.."><i class="material-icons">visibility</i></a>
                                         </div>
 
                                         <div class="card-content">
-                                            <p> 298x223. I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                            <p> 298x223. I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively. <a href="#"> Leer mas..</a></p>
                                         </div>
                                         
                                     </div>
-
+                                    <br>
+                                    <br>
                                 </div>
 
                                 <div class="col s12 m4 l4">
@@ -161,39 +304,42 @@
                                     <div class="card">
 
                                         <div class="card-image">
-                                            <img src="images/playa.jpg">
+                                            <img class="materialboxed" width="450" src="images/playa.jpg">
                                             <span class="card-title">Card Title</span>
                                             <a class="btn-floating halfway-fab waves-effect waves-light red" title="Leer Noticia.."><i class="material-icons">description</i></a>
                                         </div>
 
                                         <div class="card-content">
-                                            <p> 298x223. I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                            <p> 298x223. I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively. <a href="#"> Leer mas..</a></p>
                                         </div>
                                         
                                     </div>
-
+                                    <br>	
+                                    <br>
                                 </div>
+
+								<br>
 
                                 <div class="center-align">
                                     
-                                    <h4>Mas Populares <i class="material-icons">access_time</i></h4>
+                                    <h4>Mas populares <i class="material-icons yellow-text small">star</i></h4>
 
                                 </div>
 
-                                <br>
-
                                 <div class="col s12 m4 l4">
+
+                                	<br>
 
                                     <div class="card">
 
                                         <div class="card-image">
-                                            <img src="images/playa.jpg">
+                                            <img class="materialboxed" width="450" src="images/playa.jpg">
                                             <span class="card-title">Card Title</span>
                                             <a class="btn-floating halfway-fab waves-effect waves-light red" title="Leer Noticia.."><i class="material-icons">local_library</i></a>
                                         </div>
 
                                         <div class="card-content">
-                                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively. <a href="#"> Leer mas..</a></p>
                                         </div>
 
                                     </div>
@@ -202,16 +348,18 @@
 
                                 <div class="col s12 m4 l4">
 
+                                	<br>
+
                                     <div class="card">
 
                                         <div class="card-image">
-                                            <img src="images/pelicanos.jpg">
+                                            <img class="materialboxed" width="450" src="images/pelicanos.jpg">
                                             <span class="card-title">Card Title</span>
                                             <a class="btn-floating halfway-fab waves-effect waves-light red" title="Leer Noticia.."><i class="material-icons">visibility</i></a>
                                         </div>
 
                                         <div class="card-content">
-                                            <p> 298x223. I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                            <p> 298x223. I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively. <a href="#"> Leer mas..</a></p>
                                         </div>
                                         
                                     </div>
@@ -220,16 +368,18 @@
 
                                 <div class="col s12 m4 l4">
 
+                                    <br>
+
                                     <div class="card">
 
                                         <div class="card-image">
-                                            <img src="images/playa.jpg">
+                                            <img class="materialboxed" width="450" src="images/playa.jpg">
                                             <span class="card-title">Card Title</span>
                                             <a class="btn-floating halfway-fab waves-effect waves-light red" title="Leer Noticia.."><i class="material-icons">description</i></a>
                                         </div>
 
                                         <div class="card-content">
-                                            <p> 298x223. I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                            <p> 298x223. I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively. <a href="#"> Leer mas..</a></p>
                                         </div>
                                         
                                     </div>
@@ -242,42 +392,16 @@
 
                 </section>
 
-                <section id="side">
+                <section id="side" >
 
-                    <div class="col s12 m3 l3">
-
-                        <br>
-
-                        <nav>
-                        
-                            <div class="nav-wrapper">
-                                
-                                <form>
-                            
-                                    <div class="input-field">
-                                       
-                                        <input id="search" type="search" placeholder="Buscar Noticia.." required>
-                                        <label class="label-icon" for="search" ><i class="material-icons">search</i></label>
-                                        <i class="material-icons">close</i>
-
-                                    </div>
-
-                                </form>
-
-                            </div>
-
-                        </nav>
-
-                        <br>
-
-                        <div class="divider"></div>
+                    <div class="col s12 m3 l3 white">
 
                         <h5 class="center-align"><i class="material-icons blue-text">local_library</i> Notas</h5>
                         
-                        <ul class="collapsible" data-collapsible="accordion">
+                        <ul class="collapsible popout" data-collapsible="accordion">
                             
                             <li>
-                              <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+                              <div class="collapsible-header active"><i class="material-icons">filter_drama</i>First</div>
                               <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                             </li>
                             
@@ -292,7 +416,7 @@
                             </li>
                         </ul>
 
-                        <div class="divider"></div>
+                        <br>
 
                         <h5 class="center-align"><i class="material-icons red-text">live_tv</i> Canal Youtube</h5>
                             
@@ -301,8 +425,6 @@
                         </div>
 
                         <br>
-
-                        <div class="divider"></div>
 
                         <h5 class="center-align"><i class="material-icons green-text">collections</i> Galeria </h5>
 
