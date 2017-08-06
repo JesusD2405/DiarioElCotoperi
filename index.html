@@ -23,7 +23,7 @@
 
                 <nav>
 
-                    <div class="nav-wrapper amber">
+                    <div class="nav-wrapper blue">
                         
                         <a href="#!" class="brand-logo waves-effect waves-green" title="Inicio"><img class="logoLetras-navbar" src="images/logo-letras.png"></a>
 
@@ -34,10 +34,10 @@
                             <li style="margin-left:150px;">
 
                                 <ul id="NoticiasDropdown" class="dropdown-content">
-        						    <li><a href="#" class="amber-text">Sucesos          </a></li>
-        						    <li><a href="#" class="amber-text">Economia         </a></li>
-        						    <li><a href="#" class="amber-text">Politica         </a></li>
-        							<li><a href="#" class="amber-text">Cultura Y Deporte</a></li>
+        						    <li><a href="#">Sucesos          </a></li>
+        						    <li><a href="#">Economia         </a></li>
+        						    <li><a href="#">Politica         </a></li>
+        							<li><a href="#">Cultura Y Deporte</a></li>
         					    </ul>
         					    
                                 <a class="dropdown-button" href="#" data-activates="NoticiasDropdown">Noticias<i class="mdi-navigation-arrow-drop-down right"></i></a>
@@ -46,9 +46,9 @@
 
                             <li>
                                	<ul id="HistoriaDropdown" class="dropdown-content">
-    						        <li><a href="#" class="amber-text">Personajes  </a></li>
-    						        <li><a href="#" class="amber-text">Cultura     </a></li>
-    						        <li><a href="#" class="amber-text">Dato Curioso</a></li>
+    						        <li><a href="#">Personajes  </a></li>
+    						        <li><a href="#">Cultura     </a></li>
+    						        <li><a href="#">Dato Curioso</a></li>
     					        </ul>
     					        
                                 <a class="dropdown-button" href="#" data-activates="HistoriaDropdown">Historia<i class="mdi-navigation-arrow-drop-down right"></i></a>
@@ -56,29 +56,32 @@
 
     					        <li>
                                	    <ul id="ParroquiaDropdown" class="dropdown-content">
-    						            <li><a href="#" class="amber-text">Novedades</a></li>
-    						            <li><a href="#" class="amber-text">Talleres </a></li>
-    						            <li><a href="#" class="amber-text">Iglesia  </a></li>
-    								    <li><a href="#" class="amber-text">Eventos  </a></li>
+    						            <li><a href="#">Novedades</a></li>
+    						            <li><a href="#">Talleres </a></li>
+    						            <li><a href="#">Iglesia  </a></li>
+    								    <li><a href="#">Eventos  </a></li>
     					            </ul>
     					            <a class="dropdown-button" href="#" data-activates="ParroquiaDropdown">Parroquia<i class="mdi-navigation-arrow-drop-down right"></i></a>
 
     					        </li> 
 
                                 <li>
-                               	    <ul id="LoteriaDropdown" class="dropdown-content">
-    						            <li><a href="#" class="amber-text">Animalitos</a></li>
-    						    
+                               	    <ul id="EntretenimientoDropdown" class="dropdown-content">
+    						            <li><a href="#">Horoscopo</a></li>
+                                        <li><a href="#">Animalitos</a></li>
+                                        <li><a href="#">Caricatura</a></li>
+                                        <li><a href="#">Chiste</a></li>
+
     					            </ul>
-    					            <a class="dropdown-button" href="#" data-activates="LoteriaDropdown">Sorteo<i class="mdi-navigation-arrow-drop-down right"></i></a>
+    					            <a class="dropdown-button" href="#" data-activates="EntretenimientoDropdown">Entretenimiento<i class="mdi-navigation-arrow-drop-down right"></i></a>
 
     					        </li>
 
                                 <li>
                                     <ul id="ContactosDropdown" class="dropdown-content">
-                                        <li><a href="#" class="amber-text">Redes     </a></li>
-                                        <li><a href="#" class="amber-text">Foro      </a></li>
-                                        <li><a href="#" class="amber-text">Sugerencia</a></li>
+                                        <li><a href="#">Redes     </a></li>
+                                        <li><a href="#">Foro      </a></li>
+                                        <li><a href="#">Sugerencia</a></li>
                                     </ul>
                                     <a class="dropdown-button" href="#" data-activates="ContactosDropdown">Contactos<i class="mdi-navigation-arrow-drop-down right"></i></a>
                                 </li>     
@@ -520,9 +523,54 @@
                         <br>
                             <div class="parallax-container background-color: white">   
 
-                                <h5 class="center-align"><i class="material-icons green-text">collections</i> Propaganda </h5>
+                                <h5 class="center-align"><i class="material-icons purple-text">important_devices</i> Publicidad </h5>
 
-                            
+                                <ul>
+                                    <li><a href="#"><img src="images/publicidad/logoPlotterArtColor.png" class="publicidad"></a></li>
+                                </ul>
+
+                            </div>
+                        <br>
+
+                            <div class="parallax-container background-color: white">   
+
+                                <h5 class="center-align"><i class="material-icons amber-text">poll</i> Encuestas </h5>
+
+                                <br>
+
+                                <form action="#">
+                                    
+                                    <h6 class="valign-wrapper center-align">Te gusta enterarte de las noticias a traves de:</h6>
+
+                                    <p>
+                                      <input type="checkbox" id="test1" />
+                                      <label for="test1">Pagina Web Oficial</label>
+                                    </p>
+
+                                    <p>
+                                      <input type="checkbox" id="test2" />
+                                      <label for="test2">Facebook</label>
+                                    </p>
+
+                                    <p>
+                                      <input type="checkbox" id="test3" />
+                                      <label for="test3">Instagram</label>
+                                    </p>
+
+                                    <p>
+                                      <input type="checkbox" id="test4" />
+                                      <label for="test4">Twitter</label>
+                                    </p>
+
+                                    <br>
+
+                                    <div class="center-align">
+
+                                        <button class="btn waves-effect waves-light valign-wrapper" type="submit" name="action">Enviar<i class="material-icons right">send</i></button>
+                                        
+                                    </div>
+
+                                </form> 
 
                             </div>
                         
@@ -547,7 +595,7 @@
 
         </section>
 
-        <footer class="page-footer amber">
+        <footer class="page-footer blue">
             
             <div class="container">
 
@@ -556,13 +604,13 @@
                     <section id="Footer Content">
 
                         <div class="col s12 m9 l8">
-                            <h5 class="black-text bold">Footer Content</h5>
+                            <h5 class="white-text bold">Footer Content</h5>
                             <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
                             
                         </div>
 
                         <div class="col s12 m3 l4">
-                            <h5 class="black-text">Contactanos</h5>
+                            <h5 class="white-text">Contactanos</h5>
                             <p class="grey-text text-lighten-4"><i class="material-icons white-text">email</i> DiarioElCotoperi@gmail.com</p>
                             <p class="grey-text text-lighten-4"><i class="material-icons green-text">local_phone</i> +58 286 XXX XX XX</p>
                             <p class="grey-text text-lighten-4"><i class="material-icons red-text">place</i> El Palmar. Edo Bolivar - Venezuela</p>
