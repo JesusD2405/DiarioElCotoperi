@@ -9,9 +9,14 @@
     	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
 
-	    <!--Import materialize.css-->
+	    <!--Import Archivos css-->
 	    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 	    <link rel="styleSheet" href="css/styleindex.css" type="text/css">
+
+        <!--Import Archivos js-->      
+        <script src="jquery/jquery.min.js"></script>
+        <script src="jquery/scriptIndex.js"></script>
+        <script src="js/materialize.min.js"></script>
 	    
     </head>
 
@@ -34,20 +39,26 @@
                             <li style="margin-left:150px;">
 
                                 <ul id="NoticiasDropdown" class="dropdown-content">
-        						    <li><a href="#">Sucesos          </a></li>
+        						    
+                                    <li><a href="#">Politica         </a></li>
         						    <li><a href="#">Economia         </a></li>
-        						    <li><a href="#">Politica         </a></li>
-        							<li><a href="#">Cultura Y Deporte</a></li>
+                                    <li><a href="#">Turismo         </a></li>
+                                    <li><a href="#">Salud           </a></li>
+        						    <li><a href="#">Cultura         </a></li>
+                                    <li><a href="#">Deportes        </a></li>
+                                    <li><a href="#">Sucesos          </a></li>
+                                    <li><a href="#">Internacionales  </a></li>
+                                    
+
         					    </ul>
         					    
-                                <a class="dropdown-button" href="#" data-activates="NoticiasDropdown">Noticias<i class="mdi-navigation-arrow-drop-down right"></i></a>
+                                <a class="dropdown-button" href="#" data-activates="NoticiasDropdown">Actualidad<i class="mdi-navigation-arrow-drop-down right"></i></a>
 
         					</li> 
 
                             <li>
                                	<ul id="HistoriaDropdown" class="dropdown-content">
     						        <li><a href="#">Personajes  </a></li>
-    						        <li><a href="#">Cultura     </a></li>
     						        <li><a href="#">Dato Curioso</a></li>
     					        </ul>
     					        
@@ -56,12 +67,11 @@
 
     					        <li>
                                	    <ul id="ParroquiaDropdown" class="dropdown-content">
-    						            <li><a href="#">Novedades</a></li>
     						            <li><a href="#">Talleres </a></li>
     						            <li><a href="#">Iglesia  </a></li>
     								    <li><a href="#">Eventos  </a></li>
     					            </ul>
-    					            <a class="dropdown-button" href="#" data-activates="ParroquiaDropdown">Parroquia<i class="mdi-navigation-arrow-drop-down right"></i></a>
+    					            <a class="dropdown-button" href="#" data-activates="ParroquiaDropdown">Agenda<i class="mdi-navigation-arrow-drop-down right"></i></a>
 
     					        </li> 
 
@@ -70,7 +80,7 @@
     						            <li><a href="#">Horoscopo</a></li>
                                         <li><a href="#">Animalitos</a></li>
                                         <li><a href="#">Caricatura</a></li>
-                                        <li><a href="#">Chiste</a></li>
+                                        <li><a href="#">Chistes</a></li>
 
     					            </ul>
     					            <a class="dropdown-button" href="#" data-activates="EntretenimientoDropdown">Entretenimiento<i class="mdi-navigation-arrow-drop-down right"></i></a>
@@ -80,8 +90,7 @@
                                 <li>
                                     <ul id="ContactosDropdown" class="dropdown-content">
                                         <li><a href="#">Redes     </a></li>
-                                        <li><a href="#">Foro      </a></li>
-                                        <li><a href="#">Sugerencia</a></li>
+                                        <li><a href="#">Sugerencias</a></li>
                                     </ul>
                                     <a class="dropdown-button" href="#" data-activates="ContactosDropdown">Contactos<i class="mdi-navigation-arrow-drop-down right"></i></a>
                                 </li>     
@@ -648,10 +657,6 @@
             </div>
 
         </footer>
-                    
-        <script src="jquery/jquery.min.js"></script>
-        <script src="jquery/scriptIndex.js"></script>
-        <script src="js/materialize.min.js"></script>
 
     </body>
 
